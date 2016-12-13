@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   line-height: 1.2;
   font-family: 'Josefin Sans';
-  background-image: url('../images/cover.jpg');
+  background-image: url('../image/cover.1jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-width: 100vw;
@@ -247,5 +247,12 @@ footer {
     max-height: 100%;
   }
 
-  
-
+.first_picture {
+  background-image: url('../image/cover.jpg');
+  background-size: 65%;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+}
